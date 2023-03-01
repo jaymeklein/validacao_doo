@@ -32,5 +32,6 @@ class Cliente(Pessoa):
         self.ultima_visita = ultima_visita
         self.saldo = saldo
 
-pass
+p = Pessoa('08-04-2000', 'Fulano, 11111111111')
+print(p)
     
